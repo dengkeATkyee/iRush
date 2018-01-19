@@ -1,0 +1,40 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="main_tab_bottom">
+        <item name="android:textColor">@color/wihte</item>
+        <item name="android:textSize">@dimen/text_size_2</item>
+        <item name="android:gravity">center_horizontal</item>
+        <!-- 该处引用drawable下面的一个xml文档(selector) -->
+        <item name="android:paddingTop">5dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1.0</item>
+        <!-- 每个按钮的权重，相等则平分尺寸 -->
+        <item name="android:button">@null</item>
+        <!-- 隐藏单选按钮 -->
+        <item name="android:layout_marginTop">1.0dip</item>
+        <item name="android:paddingBottom">5.0dip</item>
+    </style>
+    <style name="pic_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:adjustViewBounds">true</item>
+        <item name="android:scaleType">fitCenter</item>
+        <item name="android:maxHeight">@dimen/pic_size</item>
+        <item name="android:maxWidth">@dimen/pic_size</item>
+    </style>
+    <style name="img_btn">
+        <item name="android:layout_width">30dp</item>
+        <item name="android:layout_height">30dp</item>
+        <item name="android:adjustViewBounds">true</item>
+        <item name="android:layout_marginTop">3dp</item>
+        <item name="android:scaleType">fitCenter</item>
+    </style>
+</resources>

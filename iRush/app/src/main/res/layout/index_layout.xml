@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    >
+  <TextView
+      android:id="@+id/where"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/szzs"
+      android:textSize="@dimen/text_size_2"
+      android:gravity="center"
+      />
+    <TextView
+        android:id="@+id/index_num"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/text_size_2"
+        android:text="--"
+        android:textColor="@color/increasePer"
+        android:gravity="center"
+        />
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        >
+    <TextView
+        android:id="@+id/increase_num"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textSize="@dimen/text_size_3"
+        android:text="--"
+        android:textColor="@color/increasePer"
+        />
+        <TextView
+            android:id="@+id/increase_per"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:textSize="@dimen/text_size_3"
+            android:layout_marginLeft="@dimen/margin"
+            android:textColor="@color/increasePer"
+            />
+
+    </LinearLayout>
+</LinearLayout>

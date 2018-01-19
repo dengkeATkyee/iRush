@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">百信牛牛</string>
+    <string name="szzs">上证指数</string>
+    <string name="szcz">深证成指</string>
+    <string name="cybz">创业板指</string>
+    <string name="top_5">今日主力买入卖出前五名</string>
+    <string name="n_record">创月新高</string>
+    <string name="org_own">机构持股</string>
+    <string name="cash_in">资金流向</string>
+    <string name="home">首页</string>
+    <string name="select">自选</string>
+    <string name="consult">情报</string>
+    <string name="info">我的</string>
+    <string name="recommand">推荐</string>
+</resources>

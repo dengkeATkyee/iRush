@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="endpoint">http://www.owestock.cn:8002/</string>
+    <string name="topfive">topfive</string>
+    <string name="cxg">cxg</string>
+
+    <string name="index_url">http://hq.sinajs.cn/list=</string>
+    <string name="shapi">s_sh000001</string>
+    <string name="szapi">s_sz399001</string>
+    <string name="cyapi">s_sz399006</string>
+
+
+</resources>

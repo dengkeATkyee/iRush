@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#303F9F</color>
+    <color name="increasePer">#fc110d</color>
+    <color name="decreasePer">#1cad1a</color>
+    <color name="bg_category">#f5f2f0</color>
+    <color name="black">#000000</color>
+    <color name="gray">#d1d4d1</color>
+    <color name="wihte">#f9fbf9</color>
+</resources>
